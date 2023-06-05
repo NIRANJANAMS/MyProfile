@@ -1,0 +1,35 @@
+.nav {
+    background-color: rgba(0, 0, 0, 0.544);
+    padding-top: 5px;
+    
+  
+}
+.nav a {
+    color: aliceblue;
+   
+   text-align: r;
+   margin: 10px;
+  } 
+  
+  
+  
+  .imm {
+    border-radius: 100cm;
+   
+  }
+
+
+ 
+ .nav .navitem {
+text-align: left;
+color: #d0d7e4;
+background-color:rgba(0, 0, 0, 0);
+object-fit: cover;
+
+
+
+
+
+
+
+ }

@@ -1,5 +1,83 @@
 .App {
-  text-align: center;
+  text-align: left;
+ object-fit: cover;
+   color: aliceblue;
+ 
+   width: 100%;
+   height: auto;
+display: flex;
+   flex-direction: column;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.table {
+  padding-left: 200px ;
+}
+.form {
+color: black;
+padding-left: 300px;
+padding-bottom: 80px;
+/* margin: 50px; */
+  /* background-color: rgba(165, 199, 222, 0.998); */
+/* margin-right: 700px;
+margin-left: 200px; */
+background: linear-gradient(rgba(244, 105, 105, 0.571),rgba(223, 236, 140, 0.721));
+}
+.bio {
+  height: 578PX;
+}
+.above {
+height: 578PX;
+background: linear-gradient(rgba(0, 0, 0, 0.559),rgba(237, 0, 0, 0.664));  
+
+}
+.contacts {
+background: linear-gradient(rgb(177, 232, 160),rgb(222, 160, 189));
+height: 578PX;
+color: black;
+text-align: center;
+}
+  .kukku {
+   padding-right: 0%;
+    width: auto;
+    height: auto;
+    
+   flex-direction: column;
+
+
+   
+     
+  }
+  .icon {
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  
+  font-size: xx-large;
+  
+
+   
+    
+
+        
+
+  }
+  .name {
+  text-align: left;
+ padding: left 60px; 
+  }
+   
+ 
+ .home {
+  display: flex;
+  flex-direction: column;
+  object-fit: cover;
+  background-position: 100%;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.54);
+/* padding-bottom:250px ;  */
+height: 578px;
+
 }
 
 .App-logo {
@@ -14,7 +92,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #d0d7e4;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +103,8 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: white;
+  font-weight: bold;
 }
 
 @keyframes App-logo-spin {
